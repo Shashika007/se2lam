@@ -30,7 +30,7 @@ int main(int argc, char **argv)
     system.setDataPath(argv[1]);
     system.start();
 
-    string fullOdoName = se2lam::Config::DataPath + "/odo_raw.txt";
+    string fullOdoName = se2lam::Config::DataPath + "/odo_raw_roug.txt";
     ifstream rec(fullOdoName);
     float x,y,theta;
     string line;
